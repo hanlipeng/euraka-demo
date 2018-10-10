@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: 172.20.150.66
+    hostname: localhost #注册中心ip
   client:
     registerWithEureka: false
     fetchRegistry: false

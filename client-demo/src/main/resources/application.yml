@@ -1,0 +1,11 @@
+eureka:
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+          defaultZone: http://172.20.150.80:8761/eureka/
+spring:
+  application:
+    name: client-test
+server:
+  port: 8001
